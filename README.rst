@@ -28,7 +28,7 @@ Examples
     )
 
     # generate 2fa session
-    >>> session_uid = bizfly_2fa.gen_session(
+    >>> session_uid = bizfly_2fa.generate_session(
         email='user_email',
         phone='user_phone'
     )
