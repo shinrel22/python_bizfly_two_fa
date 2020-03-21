@@ -1,8 +1,7 @@
 from bizfly_two_fa.utils.methods import do_request
 from bizfly_two_fa.constants import (GEN_SESSION_ENDPOINT, SEND_OTP_ENDPOINT, GET_SESSION_INFO_ENDPOINT,
-                                     VERIFY_OTP_ENDPOINT, SEND_MEMBER_SECRET_KEY_ENDPOINT, CONFIRM_SESSION_ENDPOINT)
-
-from config import BASE_URL
+                                     VERIFY_OTP_ENDPOINT, SEND_MEMBER_SECRET_KEY_ENDPOINT,
+                                     CONFIRM_SESSION_ENDPOINT, BASE_URL)
 
 
 class BizflyTwoFa(object):
@@ -184,4 +183,4 @@ class BizflyTwoFa(object):
         pass
 
 
-VERSION = (1, 0, 2)
+VERSION = (1, 0, 3)
