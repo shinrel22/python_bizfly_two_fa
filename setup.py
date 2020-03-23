@@ -40,6 +40,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/shinrel22/python_bizfly_two_fa",
     packages=setuptools.find_packages(),
+    install_requires=['requests',],
     classifiers=CLASSIFIERS,
     python_requires='>=2.7',
     license="MIT",
